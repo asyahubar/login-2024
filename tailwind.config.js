@@ -1,0 +1,13 @@
+export default {
+  content: ["./src/**/*.{html,js,vue}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require('daisyui')
+  ],
+  daisyui: {
+    themes: ['night']
+  }
+}
+
