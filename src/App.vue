@@ -1,6 +1,13 @@
 <template>
   <div class="p-8">
     <RouterView />
+    <footer class="mt-4 text-center">
+      <a 
+        href="https://github.com/asyahubar/login-2024" 
+        target="_blank"
+        class="link link-secondary"
+      >Project on GitHub</a>
+    </footer>
   </div>
 </template>
 
